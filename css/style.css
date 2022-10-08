@@ -1,0 +1,309 @@
+@import url(../css/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.nav{
+    background: #3E8989;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 165px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    margin: 0 182px 0 289px;
+}
+
+.menu__list{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF transparent;
+}
+
+.menu__link{
+    font-family: 'RubikM';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.menu__link:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.search__text{
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 0 8px 20px;
+    border: 1px;
+    border-right: none;
+    outline: none;
+}
+
+.search__btn{
+    color: #FFFFFF;
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px;
+    border-left: none;
+    outline: none;
+    padding: 8px 14px;
+}
+
+
+.banner{
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__wrap{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo__name{
+    font-family: 'RubikS';
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+
+.banner__text{
+    font-family: 'RubikM';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.banner__btn{
+    color: #FFFFFF;
+    font-family: 'InterS';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background: #B4436C;
+    border-radius: 30px;
+    border: 1px;
+    padding: 14px 78px;
+}
+
+.banner__btn:hover{
+    background: #FFFFFF;
+    color: #B4436C;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.abt__wrap{
+    margin: 80px 165px 0;
+}
+
+.abt__title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.abt__title{
+    font-family: 'InterS';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #3E8989;
+}
+
+.abt__inner{
+    display: flex;
+    align-items: flex-start;
+}
+
+.abt__tt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 9px;
+}
+
+.abt__text{
+    font-family: 'RubikL';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 20px;
+}
+
+.catalog{
+    margin: 97px 165px 100px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    height: 300px;
+    width: 263px;
+    background: rgba(239, 239, 239, 1);
+}
+
+.cl__pic{
+    padding: 1px 32px;
+}
+
+.bo__pic{
+    padding: 77.5px 22.5px;
+}
+
+.ten__pic{
+    padding: 75px 1px 75px 2px;
+}
+
+.back__pic{
+    padding: 19px 0;
+}
+
+.catalog__menu{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.catalog__list{
+    font-family: 'InterS';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.catalog__link{
+   color: #000000; 
+}
+
+.catalog__link:hover{
+    color: #B4436C;
+}
+
+.clothes{
+    margin: 30px 201px 0 86px;
+}
+
+.shoes{
+    margin: 30px 213px 0 0;
+}
+
+.tents{
+    margin: 30px 186px 0 0;
+}
+
+.backpacks{
+    margin: 30px 68px 0 0;
+}
+
+.contacts{
+    width: 1111px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title__cont{
+    font-family: 'InterS';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #3E8989;
+}
+
+.contacts__tnm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cont__text{
+    width: 555px;
+    font-family: 'RubikL';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 388px;
+}
+
+.cont__num{
+    width: 166px;
+    font-family: 'RubikL';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.cont__mail{
+    font-family: 'RubikL';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.footer{
+    background: #3E8989;
+    margin-top: 104px;
+}
+
+.footer__arr{
+    padding: 40px 589px 15px 590px;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.all__text{
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer__text{
+    font-family: 'RubikL';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+}
